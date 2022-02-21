@@ -1,0 +1,13 @@
+{
+  "name": "onlineapp",
+  "version": "1.0.0",
+  "description": "this is simple web app for end module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "rohan.kudalkar1@gmail.com",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
