@@ -3,5 +3,5 @@ WORKDIR /usr/src/app
 COPY package.json ./
 RUN npm install
 COPY . .
-CMD [ "node" "server.js" ]
+CMD "server.js"
 EXPOSE 8081
